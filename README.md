@@ -1,7 +1,7 @@
 ## Welcome to os201 Github Page by Khadijah
 
 ### Table of Contents
-log, that is now currently from W00-log.txt to W06-log.txt, and
+log, that is now currently from W00-log.txt to W06-log.txt, and<br/>  
 this README.MD!
 
 ### For more information about github pages,
