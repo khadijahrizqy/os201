@@ -1,0 +1,34 @@
+Script started on Tue 09 Jun 2020 01:52:37 PM WIB
+khadijah.rizqy@badak:~/UAS$ PS1="$ "
+$ echo $GitHubUser
+khadijahrizqy
+$ echo $PSTAMP
+TMP1="$GitHubUser-$(hostname -s)-$(date +%y%m%d-%H%M%S)"; TMP2="$(echo $TMP1|sha1sum|cut -c1-4)"; echo "$TMP1-$TMP2";
+$ eval $PSTAMP
+khadijahrizqy-badak-200609-135253-8504
+$ PS1="\$(eval \$PSTAMP)"
+khadijahrizqy-badak-200609-135254-ad9aecho -e $CEKSAYA
+khadijahrizqy ZCZCSCRIPTSTART 200607-213320 khadijahrizqy
+khadijahrizqy khadijahrizqy 200607-213904-486e-UAS/ 200607-213904 SEQOK SUMOK 486ea0f2
+khadijahrizqy khadijahrizqy 200607-213915-97df-UAS/ 200607-213915 SEQOK SUMOK 97df355e
+khadijahrizqy khadijahrizqy 200607-213919-e360-UAS/ 200607-213919 SEQOK SUMOK e3601596
+khadijahrizqy khadijahrizqy 200607-213928-74ea-UAS/ 200607-213928 SEQOK SUMOK de149289
+khadijahrizqy ZCZCSCRIPTSTOP 200607-214140 SEQOK
+khadijahrizqy-badak-200609-135258-329aecho -e $CEKSEBELA1
+kholish219 ZCZCSCRIPTSTART 200608-222235 khadijahrizqy
+kholish219 khadijahrizqy 200608-22344-b43d-muhammad.nurkholish/ 200608-222344 SEQOK SUMOK b43dedf
+kholish219 khadijahrizqy 200608-222402-5b6a-muhammad.nurkholish/ 200608-222402 SEQOK SUMOK 5b6a2b49
+kholish219 khadijahrizqy 200608-222418-8ee4-muhammad.nurkholish/ 200608-222418 SEQOK SUMOK 8ee4616
+kholish219 khadijahrizqy 200608-222427-de14-muhammad.nurkholish/ 20060608-222427 SEQOK SUMOK de149289
+kholish219 ZCZCSCRIPTSTOP 200608-222438 SEQOK
+khadijahrizqy-badak-200609-135305-2856echo -e $CEKSEBELA2
+KiddoKidz ZCZCSCRIPTSTART 200603-205338 khadijahrizqy
+KiddoKidz khadijahrizqy 200603-205338-9400-muhammad.zuhdi81/ 200603-205338 SEQOK SUMOK 94001629
+KiddoKidz khadijahrizqy 200603-205338-eaf4-muhammad.zuhdi81/ 200603-205338 SEQOK SUMOK eaf45d94
+KiddoKidz khadijahrizqy 200603-205340-c6f4-muhammad.zuhdi81/ 200603-205340 SEQOK SUMOK c6f4b4ce
+KiddoKidz khadijahrizqy 200603-205353-a2a6-muhammad.zuhdi81/ 200603-205353 SEQOK SUMOK a2a68532
+KiddoKidzZCZCSCRIPTSTOP 200603-105432 SEQOK
+khadijahrizqy-badak-200609-135307-e5dbexit
+exit
+
+Script done on Tue 09 Jun 2020 01:53:09 PM WIB
