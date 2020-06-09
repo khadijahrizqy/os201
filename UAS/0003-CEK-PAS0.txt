@@ -1,0 +1,23 @@
+Script started on Tue 09 Jun 2020 02:13:23 PM WIB
+khadijah.rizqy@badak:~/UAS$ PS1="$ "
+$ echo $GitHubUser
+khadijahrizqy
+$ echo $PSTAMP
+TMP1="$GitHubUser-$(hostname -s)-$(date +%y%m%d-%H%M%S)"; TMP2="$(echo $TMP1|sha1sum|cut -c1-4)"; echo "$TMP1-$TMP2";
+$ PS1="\$(eval \$PSTAMP)"
+khadijahrizqy-badak-200609-141356-1d67sha1sum 0000-mypub.txt 0001-mytest.txt 0002-mytest.txt.asc > SHA1SUM
+khadijahrizqy-badak-200609-141405-0391sha1sum -c SHA1SUM
+0000-mypub.txt: OK
+0001-mytest.txt: OK
+0002-mytest.txt.asc: OK
+khadijahrizqy-badak-200609-141411-d851gpg2 -sb -a SHA1SUM
+
+You need a passphrase to unlock the secret key for
+user: "Khadijah Rizqy <kr.mufida@gmail.com>"
+4096-bit RSA key, ID 05ABBD7E, created 2020-06-07
+
+File `SHA1SUM.asc' exists. Overwrite? (y/N) y
+khadijahrizqy-badak-200609-141427-3f0eexit
+exit
+
+Script done on Tue 09 Jun 2020 02:14:32 PM WIB
