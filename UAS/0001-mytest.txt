@@ -1,15 +1,15 @@
 Script started on Sun 07 Jun 2020 09:33:20 PM WIB
-khadijah.rizqy@badak:~/UAS$ PS1="$ "
+khadijah.rizqy@badak:~/UAS$ exitval $PSTAMPcho[C[C[C[C[C[C[C[CGitHubUser[8PPS1="$ "echo $GitHubUser[8PPS1="$ "
 $ echo $GitHubUser
 khadijahrizqy
 $ echo $PSTAMP
 TMP1="$(date +%y%m%d-%H%M%S)"; TMP2="$(echo $TMP1-$GitHubUser-${PWD##*/}|sha1sum|cut -c1-4)"; echo "$TMP1-$TMP2-${PWD##*/}/> ";
 $ eval $PSTAMP
-200607-213904-486e-UAS/>
+200607-213904-486e-UAS/> 
 $ PS1="\$(eval \$PSTAMP)"
 200607-213915-97df-UAS/> date
 Sun Jun  7 21:39:19 WIB 2020
-200607-213919-e360-UAS/> gpg2 --list-keys
+200607-213919-e360-UAS/> gpg2 --list-e[Kkeys
 /home/fasilkom/mahasiswa/k/khadijah.rizqy/.gnupg/pubring.gpg
 ------------------------------------------------------------
 pub   4096R/05ABBD7E 2020-06-07 [expires: 2021-06-07]
